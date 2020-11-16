@@ -1,36 +1,49 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);
 
 #vibhram{
-    font-weight: 600;
-    font-size: 50px;
-    color: gray;
+	
+    font-weight: 800;
+    font-size: 30px;
+    color:gray;
 	text-transform: uppercase;
 }
 
+body{
+    /*background-image: url('Images/d2.jpg');*/
+    background-image: url('Images/tenor.gif');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    /*background-color: #F69680; */
+	color: rgb(214, 209, 209);
+	font-family: "Source Code Pro";
+	font-weight: 500;
+}
+
 #toph{
-    font-weight: 200;
-	font-size: 40px;
+    font-weight: 500;
+	font-size: 25px;
 	text-transform: uppercase;
 	border-top: 2px solid;
 }
 
 #bottomh{
-    font-weight: 200;
-	font-size: 40px;
+    font-weight: 500;
+	font-size: 25px;
 	text-transform: uppercase;
 	border-bottom: 2px solid;
 }
 
 
 img	{
-	height: 300px;
+	height: 200px;
 	border-radius: 50%;
 }
 
 button {
 	margin: 30px auto 0;
-	padding: 20px 25px;
-	background-color: #F69680;
+	padding: 10px 25px;
+	background-color: #7880f8;
 	color: #2E1263;
 	font-size: 14px;
 	text-align: center;
@@ -47,4 +60,5 @@ button {
 	align-items: center;
 	justify-content: center;
 	height: 120vh;
+	
 }
